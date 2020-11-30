@@ -7,4 +7,8 @@ Test api project with typescript cucumber and chai
 ### Steps
 
 - `npm install`
-- Run tests with `npm test`
+
+- Run tests with
+ `npm test`
+or (without build)
+ `npm run cucumber`
