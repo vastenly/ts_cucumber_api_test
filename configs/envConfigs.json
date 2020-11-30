@@ -1,0 +1,6 @@
+{
+    "env":"test",
+    "test" :{
+        "baseUrl" : "https://postman-echo.com/"
+    }
+}

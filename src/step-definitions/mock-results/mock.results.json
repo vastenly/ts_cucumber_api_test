@@ -1,0 +1,17 @@
+{
+    "api": {
+        "der": {
+            "algorithm": "",
+            "format": "",
+            "publicKey": ""
+        },
+        "keyId": ""
+    },
+    "card-api": {
+        "loginStatus": "open",
+        "ordinals": "",
+        "attempts": 1,
+        "chId": "",
+        "chIdExt": ""
+    }
+}
