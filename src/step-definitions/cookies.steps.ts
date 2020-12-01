@@ -17,6 +17,11 @@ Given(/^I'm create a (get|post|put|patch|delete) request for '(.*)' api$/, funct
     this.state = stringGenerator.getRandomString(64);
     resource = resource + 'name=postman&domain=postman-echo.com&state=' + this.state;
   }
+
+  if (resource.includes("cookies/delete?")) {
+    resource = resource + 'state=' + this.state;
+  }
+
   console.log(resource);
   this.resource = resource;
   this.options = {

@@ -14,7 +14,7 @@ Feature: Using cookies
     And I'm execute the api
     Then I'm should get the response with status <statusCode>
     And I'm verify the cookies params are the same
-    When I'm create a delete request for 'delete' api
+    When I'm create a get request for 'cookies/delete?' api
     And I'm execute the api
     Then I'm should get the response with status <statusCode>
 
